@@ -1,0 +1,25 @@
+- name: Home
+  link: /
+- name: O nás
+  link: /o-nas.html
+- name: Blog
+  link: /blog.html
+- name: Naše potkany
+  link: /nase-potkany.html
+  sublinks: 
+    - name: Samice
+      url: /samice.html
+    - name: Samci
+      url: /samci.html
+    - name: Archív
+      url: /archiv.html
+- name: Vrhy
+  link: /vrhy.html
+  sublinks:
+    - name: Aktuálne vrhy
+      url: /aktualne-vrhy.html
+    - name: Plánujeme
+      url: /planujeme.html
+    - name: Odchované vrhy
+      url: /odchovane-vrhy.html
+  
