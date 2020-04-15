@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: "sk" }}">
 
   {%- include head.html -%}
 
@@ -12,6 +12,7 @@
         <h3 class="text-center p-4"> {{ page.parents }} </h3>
 
         <p class="pl-4"> {{ page.datum-narodenia }} </p>
+        <p class="pl-4"> K odberu od {{ page.datum-narodenia }} </p>
 
         <p class="p-4"> {{ page.text}} </p>
 
