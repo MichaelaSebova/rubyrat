@@ -9,10 +9,32 @@ nav {
 
 */
 
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+
 #smaller {
     font-size: 1.7rem;
 }
 
 #logo {
     width: 4rem;
+}
+
+.rubyrat {
+    font-family: 'Amatic SC', cursive;
+}
+
+.footer-logo {
+    font-family: 'Amatic SC', cursive;
+    font-size: 4rem;
+}
+
+#footer-nav li {
+    list-style-type: none;
+}
+
+#footer-nav li a {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 2px;
 }
